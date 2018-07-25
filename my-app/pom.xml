@@ -40,7 +40,9 @@
 <artifactId>sonar-maven-plugin</artifactId>
 <version>3.2</version>
 </dependency>
-<profiles>
+
+  </dependencies>
+  <profiles>
 <profile>
 <id>sonar</id>
 <activation>
@@ -54,7 +56,6 @@ http://localhost:9000
 </properties>
 </profile>
 </profiles>
-  </dependencies>
   <build>
     <plugins>
       <plugin>
